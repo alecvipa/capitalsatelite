@@ -1,0 +1,230 @@
+
+.capitalBanner{
+    height: 50rem;
+    background-image: url("/assets/images/edificio.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 0s linear;
+    background-position: 25% 85%;
+
+}
+.overlayInicio{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.308);
+}
+.serviciosTitleInicio{
+    margin-top: 20%;
+    padding: 3%;
+    color: white;
+}
+.privacidadBanner{
+    height: 40rem;
+    background-image: url("/assets/images/cuteSalon.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.lashistaProfesionalBanner{
+    height: 25rem;
+    background-image: url("/assets/images/lashesBn.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 0%;
+    
+}
+.fonts{
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.overlay{
+  z-index: 9;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  color: #F1DCD5 !important; 
+  padding-top: 4%;
+}
+.linkItemLashistaProfesional{
+    color:#F1DCD5;
+}
+.linkItemLashistaProfesional:hover{
+    color:#F1DCD5;
+}
+.paraFont{
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+}
+.listItemLashistaProfesional{
+    background-color: rgba(0, 0, 0, 0.52);
+}
+.listItemLashistaProfesional:hover {
+    background-color: rgb(122, 122, 122);
+}
+.lashistaProfesional {
+    height: 25rem;
+    border-radius: 8pt;
+    margin-top: 12%;
+    margin-right: 2%;
+}
+.imgLashistaProfesional:hover{
+    opacity: 0.6;
+    transition: 1s;
+}
+.imgCertificaciones:hover{
+    opacity: 0.6;
+    transition: 1s;
+}
+.aplicacionPestañas{
+    height: 25rem;
+    border-radius: 8pt;
+    margin-top: 12%;
+    padding: 0%;
+}
+.navbar-toggler {
+    background-color: black !important;
+} 
+.logoBaaliNavBar{
+    height: 12rem;
+}
+.nav-link{
+    color: black !important;
+    
+}
+.nav-link:hover{
+    color: #DB4179 !important;
+}
+
+.btn-whats{
+    background-color: #25D366;
+    border-color: #25D366;
+}
+.aplicacionTitle{
+    color: #F1DCD5;
+    padding-top: 16%;
+    text-align: center;
+    text-decoration: underline;
+}
+.titleValueProp{
+    width: 57%;
+    color: #F1DCD5;
+    text-align: center;
+    margin-left: 24%;
+}
+.backgroundValueP{
+    background-color: rgba(0, 0, 0, 0.541);
+    border-radius: 8px;
+    padding: 3%;
+}
+.aplicacionesDiv{
+    padding-top: 5%;
+    padding-left: 7%;
+    padding-bottom: 5%;
+    background-image: url("/assets/images/salon.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 0s linear;
+    background-position: 25% 85%;
+}
+.cardAplicacionesLash{
+    margin-bottom: 5%;
+}
+#footer-wrap {
+    background-color: #F1DCD5;
+}
+.fa-footer{
+    color: black !important;
+    margin: 1.5%;
+    margin-bottom: 3% !important;
+}
+.imgLogoFooter{
+    margin-left: 50%;
+    margin-top: -10%;
+}
+.privacidadContainer{
+    padding-top: 22%;
+}
+.privacidadTitle{
+    background-color: rgba(255, 235, 205, 0.657);
+    border-radius: 8px;
+    padding-top: 2%;
+    padding-bottom: 2%;   
+}
+.tablePrivacidad{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media(max-width:991px){
+    .serviciosTitleInicio{
+        margin-top: 75%;
+    }
+    .titleInicioTitle{
+        font-size: 2rem;
+    }
+    .titleInicioResponsive{
+        margin: 5%;
+    }
+	#header-wrap {
+		background: #fff!important;
+	}
+    .capitalBanner{
+        height: 40rem;
+    
+    }
+    .containerLashesProducts{
+        margin-top: 50%;
+    }
+    .titleValueProp{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .cardAplicacionesLash{
+        margin-left: 8%;
+    }
+    .imgLogoFooter{
+        margin-left: 45% ;
+    }
+    .privacidadContainer{
+        padding-top: 72%;
+    }
+    .privacidadBanner{
+        height: 35rem;
+        
+    }
+    .titleCompletaTresCursos{
+        font-size: 18pt;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+}
+@media(min-width:360px) and (max-width: 400px){
+
+    .imgLashistaProfesional{
+        margin-top: -20%;
+    }
+    .titleValueProp{
+        margin-top: -30%;
+    }
+    /* .capitalBanner{
+        height: 65rem;
+    
+    } */
+    .cardAplicacionesLash{
+        margin-left: 0%;
+    }
+    .imgLogoFooter{
+        margin-left: 30% ;
+    }
+    .privacidadContainer{
+        padding-top: 92%;
+    }
+
+}
