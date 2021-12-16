@@ -83,7 +83,24 @@
     </div>
 </div>
 <br>
-<div class="bannerContacto"></div>
+<div class="bannerContacto">
+    <div class="titleContactoBannerOverlay">
+        <div class="container containerTitleBanner">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <h1 class="text-white text-center titleContactoBanner">
+                        Servicios profesionales y de consultoría de alta calidad
+                    </h1>
+                    <button type="button" class="btn btn-warning btn-block"
+                        onclick="location.href='#contacto';">Cotizar</button>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
 <br>
 <div class="serviciosDivLanging">
     <div class="container">
@@ -93,7 +110,7 @@
         <br>
         <div class="row">
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card containerServiciosLanding" style="width: 18rem;">
                     <img class="card-img-top" src="/assets/images/1.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Asesoría en Riesgos</h5>
@@ -105,7 +122,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card containerServiciosLanding" style="width: 18rem;">
                     <img class="card-img-top" src="/assets/images/2.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Consultoría</h5>
@@ -119,7 +136,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card containerServiciosLanding" style="width: 18rem;">
                     <img class="card-img-top" src="/assets/images/3.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Asesoría Financiera</h5>
@@ -135,7 +152,7 @@
         <br>
         <div class="row">
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card containerServiciosLanding" style="width: 18rem;">
                     <img class="card-img-top" src="/assets/images/4.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Impuestos</h5>
@@ -149,7 +166,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card containerServiciosLanding" style="width: 18rem;">
                     <img class="card-img-top" src="/assets/images/5.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Legal</h5>
@@ -161,7 +178,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card containerServiciosLanding" style="width: 18rem;">
                     <img class="card-img-top" src="/assets/images/6.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Imagen Corporativa</h5>
@@ -176,7 +193,7 @@
         <br>
         <div class="row">
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card containerServiciosLanding" style="width: 18rem;">
                     <img class="card-img-top" src="/assets/images/7.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Mantenimiento y gestión de sistemas</h5>
@@ -189,7 +206,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card containerServiciosLanding" style="width: 18rem;">
                     <img class="card-img-top" src="/assets/images/8.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Medio ambiente y sustentabilidad</h5>
@@ -202,7 +219,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card containerServiciosLanding" style="width: 18rem;">
                     <img class="card-img-top" src="/assets/images/9.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Seguridad electrónica y sistemas integrados</h5>
@@ -218,7 +235,36 @@
     </div>
 </div>
 </div>
-<div id="contacto">
-
+<div id="contacto" class="contactoSection">
+    <div class="container">
+        <h1 class="text-center">
+            Contáctanos
+        </h1>
+        <hr>
+        <h5 class="text-center" style="color: #61779D !important;">
+            Desarrollamos líderes que trabajan en conjunto para hacer frente a los desafíos de nuestros clientes y
+            lograr el éxito tanto el presente como en el futuro.
+        </h5>
+        <br>
+        <br>
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Nombre</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="¿Cómo te llamas?">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Correo electrónico</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="¿Cuál es tu correo?">
+            </div>
+             <div class="form-group">
+                <label for="exampleFormControlInput1">Número telefónico</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="¿Cuál es tu número?">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">¿Estás interesado en un servicio en particular?</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </form>
+    </div>
 </div>
 </div>
