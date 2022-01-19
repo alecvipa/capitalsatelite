@@ -10,6 +10,15 @@
     background-position: 25% 85%; */
 
 }
+.btnPestañaNosotros{
+    background-color: #053C6D !important;
+    border-color: white !important;
+    color: white !important;
+    font-size: 25px;
+}
+.btnPestañaNosotros:hover{
+    background-color: #61779D !important;
+}
 .bannerContacto{
     height: 20rem;
     background-image: url("/assets/images/company.jpeg");
@@ -22,6 +31,10 @@
     padding: 3%;
     height: 100%;
     width: 100%;
+}
+.fontBlackBolder{
+    font-weight: bolder !important;
+    color: black !important;
 }
 .overlayInicio{
     height: 100%;
@@ -86,7 +99,7 @@
 .logoCapitalNavBar{
     height: 9rem;
 }
-.nav-link{
+.nav-links{
     color: black !important;
     
 }
@@ -162,8 +175,20 @@
     margin-top: 5%;
     color: #053C6D;
 }
+.fontBolder{
+    font-weight: bolder;
+}
 
 @media(max-width:991px){
+    .btnPestañaNosotros{
+        font-size: 20px;
+    }
+    .marginTop{
+        margin-top: 5%;
+    }
+    .bannerContacto{
+        margin-top: 8%;
+    }
     .contactoSection{
         padding-top: 10%;
         padding-bottom: 10%;
