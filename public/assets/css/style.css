@@ -63,13 +63,14 @@
     
 }
 .fonts{
-    font-family: 'Nunito Sans', sans-serif;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-family: 'Work Sans', sans-serif !important;
 }
 .grupoCapitalTitleNosotros{
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
 
 .paraFont{
     font-family: 'Julius Sans One', sans-serif;
@@ -100,7 +101,7 @@
     background-color: black !important;
 } 
 .logoCapitalNavBar{
-    height: 9rem;
+    height: 7rem;
 }
 .nav-links{
     color: black !important;
@@ -183,6 +184,9 @@
 }
 
 @media(max-width:991px){
+    .contContactLinks{
+        margin-top: 3%;
+    }
     .btnPestañaNosotros{
         font-size: 20px;
     }
