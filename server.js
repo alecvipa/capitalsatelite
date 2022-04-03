@@ -59,7 +59,7 @@ app.post("/ajax/email", function (request, response) {
     });
 
     
-    var htmlBody = `<h2>Correo de contacto</h2><p>Nombre: ${request.body.name} </p><p> Correo electrónico: <a href='mailto: ${request.body.email}'>${request.body.email}</a></p><p>Número de contacto:${request.body.number} </p><p>Número de días: ${request.body.secondate}</p>`;
+    var htmlBody = `<h2>Correo de contacto</h2><p>Nombre: ${request.body.name} </p><p> Correo electrónico: <a href='mailto: ${request.body.email}'>${request.body.email}</a></p><p>Número de contacto:${request.body.number} </p><p>Servicio de interés: ${request.body.secondate}</p>`;
     var mail = {
         from: '"Team: Xyncs Web Studio',
         to: 'info@grupocapitalsatelite.com',
